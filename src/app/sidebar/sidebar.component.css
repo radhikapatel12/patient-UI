@@ -1,0 +1,115 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 270px;
+}
+
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  height: 90px;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1000 !important;
+  height: 90px;
+}
+
+.topnav {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.custom-width {
+  width: 19.7%;
+}
+.custom-width2 {
+  width: 82%;
+}
+#btn1 {
+  background-color: #ff2480;
+}
+#btn2 {
+  background-color: #e8d2e6;
+  color: #bb66b4;
+}
+#btn3 {
+  background-color: #c9daea;
+  color: #4388c2;
+}
+#btn4 {
+  color: #4388c2;
+  background-color: #d1e4f0;
+}
+#btn5 {
+  background-color: #ab3da1;
+}
+
+.user-icon {
+  background-color: #ff2480;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+}
+::ng-deep .mdc-checkbox__background {
+  border-radius: 5px !important;
+  background-color: rgb(173 181 189 / 56%) !important;
+  border: none !important;
+}
+.custom-textbox {
+  border-radius: 25px; /* Adjust as needed for left and right rounded corners */
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.mat-mdc-card {
+  background-color: #f7f7f7 !important;
+  border-radius: 25px !important;
+}
+
+#card2 {
+  border: none !important;
+}
+#card1 {
+  background-color: #f3f3f3 !important;
+}
+.Status {
+  background-color: lightgrey !important;
+}
+::ng-deep #statusId .mat-mdc-radio-button .mdc-radio__outer-circle {
+  background-color: white !important;
+  border: none !important;
+}
+
+::ng-deep #examTestId .mat-mdc-radio-button .mdc-radio__outer-circle {
+  background-color: rgb(173 181 189 / 56%) !important;
+  border: none !important;
+}
+
+#statusDate {
+  border-radius: 20px !important;
+  border: none !important;
+}
+
+textarea {
+  border-radius: 20px;
+  background-color: #e0e0e0;
+}
+
+.white-background {
+  background-color: white !important;
+}
+
+::ng-deep .signature-pad-canvas {
+  border: none !important;
+}
+
+.form-select {
+  border-radius: 25px; /* Adjust as needed for left and right rounded corners */
+  background-color: lightgrey;
+}
